@@ -1,10 +1,10 @@
 # test-node-asu
-## instructions
-
+## Build Instructions
+Clone the project, build the docker image and run it with the following commands:
 ```
 gh repo clone leiflundberg/test-node-asu
-docker build -t node-asu .
-docker run -p 3000:3000 -d node-asu
+docker build -t test-node-asu .
+docker run -p 3000:3000 -d test-node-asu
 ```
 
-Go to `localhost:3000` in a browser
+Go to `localhost:3000` in a browser or run `curl localhost:3000`
