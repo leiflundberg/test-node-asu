@@ -2,8 +2,9 @@
 ## instructions
 
 ```
+gh repo clone leiflundberg/test-node-asu
 docker build -t node-asu .
-docker run -p 8080:3000 -d node-asu
+docker run -p 3000:3000 -d node-asu
 ```
 
-Go to `localhost:8080` in a browser
+Go to `localhost:3000` in a browser

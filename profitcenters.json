@@ -1,16 +1,16 @@
 {
-    "user1" : {
-       "id": 1,
+    "profitcenter1" : {
+       "instId": 9815,
        "name" : "Eika Kredittbank"
     },
     
-    "user2" : {
-       "id": 2,
+    "profitcenter2" : {
+       "instId": 2,
        "name" : "Nordea"
     },
     
-    "user3" : {
-       "id": 3,
+    "profitcenter3" : {
+       "instId": 3,
        "name" : "Wasa"
     }
  }
